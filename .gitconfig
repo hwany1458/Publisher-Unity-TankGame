@@ -1,0 +1,12 @@
+[user]
+	email=hwany1458@empal.com
+	name=hwany1458
+[core]
+	editor=vim
+[color]
+	ui=auto
+[color "branch"]
+	current=yellow bold
+	local=green blod
+	remote=cyan bold
+
