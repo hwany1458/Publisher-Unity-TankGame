@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour {
     Transform fire;             // 발사 불꽃
     AudioSource gunSound;       // 발사 사운드
 
-    const float RADAR_DIST = 15f;   // 자동차 탐지 거리
+    const float RADAR_DIST = 12f;   // 자동차 탐지 거리
     const float FIRE_DIST = 10f;     // 발사 거리
 
     bool canFire = true;            // 사격 가능?
@@ -54,7 +54,7 @@ public class Enemy : MonoBehaviour {
         gunSound.Play();
         canFire = false;
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
         canFire = true;
     }
 

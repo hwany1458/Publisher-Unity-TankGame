@@ -14,11 +14,11 @@ public class CarFire : MonoBehaviour {
     AudioSource[] gunSound;     // AudioSourcce용 배열
     Rigidbody rgBody;           // Rigidbody
 
-    float moveSpeed = 5f;      // 이동 속도  (10)
-    float rotSpeed = 30f;       // 회전 속도 (초속 60˚)
+    float moveSpeed = 10f;      // 이동 속도
+    float rotSpeed = 60f;       // 회전 속도 (초속 60˚)
 
     bool canFire = true;        // 총을 발사할 수 있는가?
-    int hp = 10;
+    int hp = 20;
     // float delayTime = 0.1f;  // 발사 지연 시간
 
     // 게임 초기화
