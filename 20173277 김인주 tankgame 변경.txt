@@ -1,5 +1,0 @@
-1.적을 처치 하면 Canvas에 KIll을 나타내줌
-
-2. Game restart버튼과 Quit버튼을 만듦
-
-3.자동차를 따라다니는 AI를 만듦
