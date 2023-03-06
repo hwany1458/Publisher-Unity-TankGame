@@ -15,3 +15,12 @@
 Package Name: com.unity.template.3dempty
 
 Package Version: 0.0.1
+
+### Scenes
+
+<img src="Scene1.png" style="width:420px"></img>
+<img src="Scene2.png" style="width:420px"></img>
+    
+### License
+
+[JPub]
